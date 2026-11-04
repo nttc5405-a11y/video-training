@@ -61,3 +61,14 @@ Google Sites 要只顯示 TIC 教材時，使用結尾為 /tic-guide/ 的網站�
 - https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
 
 資料來源、圖像署名及操作限制保留於 TIC 教材正文。
+
+
+## 教材分頁
+
+| 教材 | 網址路徑 |
+| --- | --- |
+| TIC 操作與評估指南 | `tic-guide/` |
+| ATC 確保器操作與錯誤對照 | `atc-belay/` |
+| 可釋放式 8 字環系統測試紀錄 | `releasable-figure8/` |
+
+各分頁可直接嵌入 Google Sites。ATC 與 8 字環頁面的原始文字、數據與來源註記保留；新增固定章節位置提示及圖片放大。
