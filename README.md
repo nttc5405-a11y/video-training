@@ -71,5 +71,6 @@ Google Sites 要只顯示 TIC 教材時，使用結尾為 /tic-guide/ 的網站�
 | ATC 確保器操作與錯誤對照 | `atc-belay/` |
 | 可釋放式 8 字環系統測試紀錄 | `releasable-figure8/` |
 | 高山攀登收繩圈：方法比較與操作圖解 | `alpine-rope-coils/` |
+| Flat Overhand／EDK 接繩結：打法與引用測試紀錄 | `flat-overhand-edk/` |
 
 各分頁可直接嵌入 Google Sites。ATC 與 8 字環頁面的原始文字、數據與來源註記保留；新增固定章節位置提示及圖片放大。
