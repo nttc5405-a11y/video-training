@@ -1,0 +1,28 @@
+/* FSRI 射水戰術實驗頁專用：頂端欄改為「目錄」按鈕＋展開面板（不影響教材庫其他頁） */
+/* 錨點落地：固定留白，避免載入瞬間尚未量到導覽列高度而停在閱讀列判定線之下 */
+html{scroll-padding-top:80px}
+.reading{display:flex;align-items:center;gap:10px;flex-wrap:nowrap;min-height:46px;padding:6px 22px}
+.reading-label{display:none}
+.toc-btn{flex:none;font:inherit;font-size:14px;font-weight:700;color:#fff;background:#214e3b;border:0;padding:6px 14px;cursor:pointer}
+.toc-btn:hover{background:#2f6a52}
+.toc-btn[aria-expanded=true]{background:#9e3c15}
+.reading-title{flex:0 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.reading-sub{flex:1 1 0;min-width:0}
+.reading-count{margin-left:auto;flex:none}
+.toc-step{flex:none;width:34px;height:34px;padding:0;font-size:20px;line-height:1;border:1px solid #bccbb8;background:#fff;color:#214e3b;cursor:pointer}
+.toc-step:hover:not(:disabled){background:#e5eddf}
+.toc-step:disabled{opacity:.35;cursor:default}
+nav .navinner{display:none;position:absolute;left:0;right:0;top:100%;max-width:none;margin:0;gap:0 28px;overflow-x:hidden;overflow-y:auto;max-height:calc(100vh - var(--nav-height,100px) - 20px);background:#fcfbf7;border-bottom:1px solid #cdd8c7;box-shadow:0 14px 28px #0003;padding:12px max(22px,calc((100% - 1120px)/2 + 22px))}
+nav.toc-open .navinner{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+nav .navinner a{display:flex;gap:10px;align-items:baseline;padding:8px 6px;font-size:15px;line-height:1.6;white-space:normal;border-bottom:1px solid #e3e9de}
+nav .navinner a .tn{flex:none;min-width:2.8em;font-size:13px;font-weight:700;color:#9e3c15;font-variant-numeric:tabular-nums}
+nav .navinner a[aria-current=location]{background:#eef3e8;color:#9e3c15;font-weight:700;border-bottom-color:#e3e9de}
+@media(max-width:700px){
+.reading{display:flex;grid-template-columns:none;gap:8px;padding:6px 14px;min-height:46px}
+.reading-sub{display:none}
+.reading-count{grid-column:auto;grid-row:auto}
+.reading-title{grid-row:auto;font-size:14px}
+.toc-btn{padding:9px 14px}
+.toc-step{width:40px;height:40px}
+nav.toc-open .navinner{grid-template-columns:1fr;padding:8px 14px}
+}

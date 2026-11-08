@@ -75,5 +75,8 @@ Google Sites 要只顯示 TIC 教材時，使用結尾為 /tic-guide/ 的網站�
 | NFPA 1700（2026）：中文重點導讀 | `nfpa1700-2026/` |
 | NFPA 1700 第 9 章：策略考量細部整理 | `nfpa1700-2026/chapter9/` |
 | NFPA 1700 第 10 章：火勢控制與滅火細部整理 | `nfpa1700-2026/chapter10/` |
+| UL FSRI 射水戰術實驗：導讀 | `fsri-dhs2013/` |
+| UL FSRI 射水戰術實驗 第 6 章：實驗分析 | `fsri-dhs2013/chapter6/` |
+| UL FSRI 射水戰術實驗 第 7 章：戰術考量 | `fsri-dhs2013/chapter7/` |
 
 各分頁可直接嵌入 Google Sites。ATC 與 8 字環頁面的原始文字、數據與來源註記保留；新增固定章節位置提示及圖片放大。
